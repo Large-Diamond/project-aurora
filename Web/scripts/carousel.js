@@ -14,8 +14,6 @@ carouselList.addEventListener('click', function (event) {
   update(newActive);
 });
 
-//setup background function
-
 function selectById(id, background){
   try{
     var item = carouselItems[id];
@@ -31,8 +29,6 @@ function selectById(id, background){
     console.log(e);
   }
 }
-
-//update newActive
 
 const update = function(newActive) {
   const newActivePos = newActive.dataset.pos;
